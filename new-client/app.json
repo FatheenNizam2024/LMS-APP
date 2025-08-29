@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "MarsTech",
+    "slug": "marstech",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Mars-Tech.jpg",
+    "scheme": "marstech",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/Mars-Tech.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Mars-Tech.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [],
+      "package": "com.myproject2025.marstech"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/Mars-Tech.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3fa3d707-14ef-41cb-8f4e-013071b8ab79"
+      }
+    }
+  }
+}
