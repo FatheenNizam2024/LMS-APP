@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "/admin/quiz-submissions/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/admin/quiz-submissions/[id]/page.css",
+      "static/chunks/app/admin/quiz-submissions/[id]/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/admin/team/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/admin/team/page.css",
+      "static/chunks/app/admin/team/page.js"
+    ],
+    "/admin/courses/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/admin/courses/page.css",
+      "static/chunks/app/admin/courses/page.js"
+    ],
+    "/admin/assignment-submissions/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/admin/assignment-submissions/[id]/page.css",
+      "static/chunks/app/admin/assignment-submissions/[id]/page.js"
+    ]
+  }
+}
